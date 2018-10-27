@@ -22,6 +22,12 @@ Open **Terminal.app** and paste the following command:
 brew install ldid xz
 ```
 
+and the next one:
+
+```text
+brew install dpkg
+```
+
 Next, set up your THEOS ****environment ****variable by pasting this command:
 
 ```bash
