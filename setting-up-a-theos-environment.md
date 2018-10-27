@@ -295,5 +295,16 @@ chmod +x $THEOS/bin/ghost
 echo "export THEOS=~/theos" >> ~/.zprofile
 ```
 
+### $THEOS isn't working
 
+* If you're using bash, type `nano ~/.profile` and look for the following line:
+
+```text
+export THEOS=~/theos
+```
+
+* If you do not see the line, add the line, save the file, and close your shell to apply your changes.
+* If you see a different variation of the line, modify it to match **exactly** like the one shown above. After modifying it, save the file, and close your shell to apply your changes.
+* If you see the exact line, try closing and opening your shell again.
+* On a default bash shell, if you see an error between the `last login` line and the `$` prompt line, make sure there aren't any issues within your `.profile` file such as spelling errors or non-existent command aliases.
 
