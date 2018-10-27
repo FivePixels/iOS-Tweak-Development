@@ -2,7 +2,7 @@
 description: A full-on intro to iOS tweaking.
 ---
 
-# Getting Started
+# Introduction
 
 ## What is a jailbreak?
 

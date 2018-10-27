@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Getting Started](README.md)
-* [Untitled](untitled.md)
+* [Introduction](README.md)
+* [Getting Started](untitled.md)
 
 ## Jailbreak
 
