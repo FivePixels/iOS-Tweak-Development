@@ -2,9 +2,12 @@
 
 * [Introduction](README.md)
 * [Getting Started](gettingstarted.md)
-* [Theos Installation](setting-up-a-theos-environment.md)
+
+## Theos Installation
+
+* [Theos Installation](theos-installation/setting-up-a-theos-environment.md)
 
 ## Writing a Tweak
 
-* [Untitled](writing-a-tweak/untitled.md)
+* [Understanding Logos](writing-a-tweak/understandinglogos.md)
 

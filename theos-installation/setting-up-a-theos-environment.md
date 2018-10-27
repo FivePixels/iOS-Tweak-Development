@@ -222,9 +222,9 @@ After adding the repos, search for _Theos Dependencies_ and install the package 
 
 
 
-![](.gitbook/assets/screen-shot-2018-10-27-at-3.25.49-pm.png)
+![](../.gitbook/assets/screen-shot-2018-10-27-at-3.25.49-pm.png)
 
-![Installing the Dependencies will take time to complete](.gitbook/assets/screen-shot-2018-10-27-at-3.27.22-pm.png)
+![Installing the Dependencies will take time to complete](../.gitbook/assets/screen-shot-2018-10-27-at-3.27.22-pm.png)
 
 Next, set up your THEOS ****environment ****variable by pasting this command in a Terminal:
 
@@ -236,7 +236,7 @@ echo "export THEOS=~/theos" >> ~/.profile
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-![](.gitbook/assets/screen-shot-2018-10-27-at-3.37.50-pm.png)
+![](../.gitbook/assets/screen-shot-2018-10-27-at-3.37.50-pm.png)
 
 Let's clone the Theos repository to the folder we just created:
 
