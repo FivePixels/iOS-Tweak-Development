@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Getting Started](untitled.md)
-* [Setting up a THEOS Environment](setting-up-a-theos-environment.md)
+* [Theos Installation](setting-up-a-theos-environment.md)
 
