@@ -40,7 +40,7 @@ Let's clone the Theos repository to the folder we just created:
 git clone --recursive https://github.com/theos/theos.git $THEOS
 ```
 
-Download the following [repo](https://github.com/theos/sdks) as a ZIP archive and extract the contents into a folder. Select and copy the .sdk files you plan on building for in the $THEOS/sdks folder.
+Download the following [repo](https://github.com/theos/sdks) as a ZIP archive and extract the contents into a folder. Select and copy the desired .sdk files you plan on building for in the $THEOS/sdks folder.
 
 To finish the installation, set up a ghostbin script:
 
@@ -51,6 +51,14 @@ curl https://ghostbin.com/ghost.sh -o $THEOS/bin/ghost
 ```bash
 chmod +x $THEOS/bin/ghost
 ```
+
+## Windows Installation
+
+### Software Prerequisites
+
+## Linux Installation
+
+### Software Prerequisites
 
 
 
