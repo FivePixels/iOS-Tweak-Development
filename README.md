@@ -8,8 +8,6 @@ description: A full-on intro to iOS tweaking.
 
 A jailbreak is termed as a privilege escalation in the iOS software to allow for unauthorized modifications, extensions, and third-party tools to run at their own will within the device. The compound word is an analogy to what happens when you jailbreak your device - you set your device free, un-guarded by Apple's limits.
 
-You can read more about **Jailbreak** under the Jailbreak Tab.
-
 ## What is an iOS Tweak?
 
 To define an iOS tweak, think of it as a modification to a task that the iOS software or an application within the software carries out. To use a tweak, you must be **jailbroken**, as Apple doesn't allow unauthorized system modifications to be carried out.
