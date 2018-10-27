@@ -23,7 +23,7 @@ Targets: **macOS**, **iOS**, **tvOS**, **watchOS**
 Open **Terminal.app** and paste the following command:
 
 {% code-tabs %}
-{% code-tabs-item title="Use homebrew to install dependencies" %}
+{% code-tabs-item title="Installing dependencies with Homebrew" %}
 ```bash
 brew install ldid xz dpkg
 ```
@@ -33,7 +33,7 @@ brew install ldid xz dpkg
 Next, set up your THEOS ****environment ****variable by pasting this command:
 
 {% code-tabs %}
-{% code-tabs-item title="Add $THEOS to your bash profile" %}
+{% code-tabs-item title="Adding $THEOS to your bash profile" %}
 ```bash
 echo "export THEOS=~/theos" >> ~/.profile
 ```
@@ -43,7 +43,7 @@ echo "export THEOS=~/theos" >> ~/.profile
 Let's clone the Theos repository to the folder we just created:
 
 {% code-tabs %}
-{% code-tabs-item title="Clone the git repository" %}
+{% code-tabs-item title="Cloning the git repository" %}
 ```bash
 git clone --recursive https://github.com/theos/theos.git $THEOS
 ```
@@ -201,4 +201,99 @@ chmod +x $THEOS/bin/ghost
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+## Other Installations
+
+### iOS Installation
+
+I placed the iOS installation as an _Other Installation_, as it seems impractical to use when writing a tweak. Tweak development includes debugging and disassembly at times, and \(for the most part\) these are not available on iOS.
+
+#### Software Prerequisites
+
+* Jailbroken iOS Device
+* Cydia
+
+Open Cydia and add the following sources**:**
+
+* [https://coolstar.org/publicrepo](https://coolstar.org/publicrepo)
+* [http://repo.bingner.com/](http://repo.bingner.com/) 
+
+After adding the repos, search for _Theos Dependencies_ and install the package from the [BigBoss](https://apt.thebigboss.org/repofiles/cydia) repo.
+
+
+
+![](.gitbook/assets/screen-shot-2018-10-27-at-3.25.49-pm.png)
+
+![Installing the Dependencies will take time to complete](.gitbook/assets/screen-shot-2018-10-27-at-3.27.22-pm.png)
+
+Next, set up your THEOS ****environment ****variable by pasting this command in a Terminal:
+
+{% code-tabs %}
+{% code-tabs-item title="Adding $THEOS to your bash profile" %}
+```bash
+echo "export THEOS=~/theos" >> ~/.profile
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+![](.gitbook/assets/screen-shot-2018-10-27-at-3.37.50-pm.png)
+
+Let's clone the Theos repository to the folder we just created:
+
+{% code-tabs %}
+{% code-tabs-item title="Cloning the git repository" %}
+```bash
+git clone --recursive https://github.com/theos/theos.git $THEOS
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+You can grab the latest iOS SDKS by pasting the next two commands:
+
+{% code-tabs %}
+{% code-tabs-item title="Downloading the ZIP archive" %}
+```text
+curl -LO https://github.com/theos/sdks/archive/master.zip
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+{% code-tabs %}
+{% code-tabs-item title="Extracting the contents to the sdks folder" %}
+```text
+unzip master.zip -d $THEOS/sdks
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+To finish the installation, set up a ghostbin script:
+
+{% code-tabs %}
+{% code-tabs-item title="Adding the ghost.sh script" %}
+```bash
+curl https://ghostbin.com/ghost.sh -o $THEOS/bin/ghost
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+{% code-tabs %}
+{% code-tabs-item title="Giving permissions to the file" %}
+```bash
+chmod +x $THEOS/bin/ghost
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+## **Troubleshooting**
+
+### Installing with zsh
+
+* If you are using zsh, `echo "export THEOS=~/theos" >> ~/.profile` will not work because you are applying this to your bash profile rather than the zsh one.
+* **Paste the following command to add the $THEOS location to zsh**:
+
+```bash
+echo "export THEOS=~/theos" >> ~/.zprofile
+```
+
+
 
