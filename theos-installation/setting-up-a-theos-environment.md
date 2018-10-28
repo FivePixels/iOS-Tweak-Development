@@ -1,5 +1,5 @@
 ---
-description: Installing dependencies and setting up your theos environment
+description: Guide to setting up your theos environment
 ---
 
 # Theos Installation
