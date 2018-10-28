@@ -7,7 +7,12 @@
 
 * [Theos Installation](theos-installation/setting-up-a-theos-environment.md)
 
+## Beginning Development
+
+* [Header Files](beginning-development/header-files.md)
+* [Understanding Logos](beginning-development/understandinglogos.md)
+
 ## Writing a Tweak
 
-* [Understanding Logos](writing-a-tweak/understandinglogos.md)
+* [Untitled](writing-a-tweak/untitled.md)
 
