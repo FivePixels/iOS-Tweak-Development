@@ -6,3 +6,4 @@ Header files are files that contain and share existing methods with the compiler
 
 ## Example Header File
 
+<img src="https://github.com/FivePixels/iOS-Tweak-Development/blob/master/.gitbook/assets/carbon-17.png" width="200" height="100" />
